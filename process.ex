@@ -1,4 +1,6 @@
 % Experimental code using method_missing to delegate method code to remote process
+% This is a proof-of-concept code but not a generic work
+% Ex. the "client" process must wait for a return value from server process
 
 object Fridge
   def constructor(list)
